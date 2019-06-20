@@ -1,0 +1,159 @@
+$primary-darker-3: #01026e;
+$primary-darker-2: #00039e;
+$primary-darker-1: #0044d9;
+$primary: #0b68ff;
+$primary-lighter-1: #238afe;
+$primary-lighter-2: #4da7fe;
+$primary-lighter-3: #8bcaff;
+
+$gray-darker-1: #232936;
+$gray: #384350;
+$gray-lighter-1: #57616d;
+$gray-lighter-2: #6a7580;
+$gray-lighter-3: #949ea6;
+
+$secondary-darker-3: #ac021f;
+$secondary-darker-2: #d41d42;
+$secondary-darker-1: #ec244c;
+$secondary: #f92c56;
+$secondary-lighter-1: #ff3f5f;
+$secondary-lighter-2: #ff6e80;
+$secondary-lighter-3: #ff9aa8;
+
+$red-darker-3: #520004;
+$red-darker-2: #87020b;
+$red-darker-1: #cf1413;
+$red: #f52922;
+$red-lighter-1: #ff5a4d;
+$red-lighter-2: #ff8475;
+$red-lighter-3: #ffab9e;
+
+$orange-darker-3: #ff5831;
+$orange-darker-2: #cc3a01;
+$orange-darker-1: #ed5603;
+$orange: #f97600;
+$orange-lighter-1: #fd9f05;
+$orange-lighter-2: #ffc41c;
+$orange-lighter-3: #ffda46;
+
+$yellow-darker-3: #553a08;
+$yellow-darker-2: #bb8802;
+$yellow-darker-1: #e6a801;
+$yellow: #f7b80f;
+$yellow-lighter-1: #ffc500;
+$yellow-lighter-2: #ffd64d;
+$yellow-lighter-3: #ffe183;
+
+$green-darker-3: #002b0d;
+$green-darker-2: #03701f;
+$green-darker-1: #039929;
+$green: #0bcb38;
+$green-lighter-1: #25dc44;
+$green-lighter-2: #45ed58;
+$green-lighter-3: #7eff87;
+
+
+$cyan-darker-3: #002429;
+$cyan-darker-2: #00494f;
+$cyan-darker-1: #007075;
+$cyan: #089b9c;
+$cyan-lighter-1: #13c2bc;
+$cyan-lighter-2: #36cfc4;
+$cyan-lighter-3: #6cdfd4;
+
+$purple-darker-3: #10033d;
+$purple-darker-2: #1f0763;
+$purple-darker-1: #35108a;
+$purple: #4e1daf;
+$purple-lighter-1: #6d2ed3;
+$purple-lighter-2: #8e54e0;
+$purple-lighter-3: #b88cee;
+
+$violet-darker-3: #3b0352;
+$violet-darker-2: #5b0678;
+$violet-darker-1: #7e109e;
+$violet: #a41dc4;
+$violet-lighter-1: #ce2feb;
+$violet-lighter-2: #e459f7;
+$violet-lighter-3: #f585ff;
+
+$lime-darker-3: #0d2b00;
+$lime-darker-2: #2a7003;
+$lime-darker-1: #399903;
+$lime: #54cb0b;
+$lime-lighter-1: #76dc25;
+$lime-lighter-2: #9aed45;
+$lime-lighter-3: #c5ff7e;
+
+$warning: $yellow;
+$success: $lime;
+$error: $red;
+$background: #f2f5f6;
+
+$body-background: $background;
+$font-family: "Graphik LCG Web", sans-serif;
+$code-family: Consolas, Menlo, Courier, monospace;
+$heading: $gray;
+$text: $gray-lighter-2;
+$text-secondary: $gray-darker-1;
+$heading-dark: $gray-lighter-6;
+$text-dark: $gray-lighter-7;
+$text-secondary-dark: $gray-lighter-8;
+$font-size-base: 13px;
+$font-size-lg: $font-size-base;
+$font-size-sm: 11px;
+$line-height-base: 1.38;
+$border-radius-base: 3px;
+$border-radius-sm: 3px;
+
+// vertical paddings
+$padding-lg: 32px; // containers
+$padding-md: 16px; // small containers and buttons
+$padding-sm: 12px; // Form controls and items
+$padding-xs: 8px; // small items
+
+// LINK
+$link: $primary;
+$link-hover: $primary-lighter-1;
+$link-active: $primary;
+$link-decoration: none;
+$link-hover-decoration: underline;
+
+// vertical padding for all form controls
+$control-padding-horizontal: $padding-md;
+$control-padding-horizontal-sm: $padding-xs;
+
+// The background colors for active and hover states for things like
+// list items or table cells.
+$item-active-bg: $primary-lighter-5;
+$item-hover-bg: $primary-lighter-6;
+
+// Border color
+$border-base: $gray-lighter-5; // base border outline a component
+$border-split: $gray-lighter-6; // split border inside a component
+$border-width-base: 1px; // width of the border for a component
+$border-style-base: solid; // style of a components border
+
+// Background
+$background-light: $gray-lighter-6; // background of header and selected item
+$background-base: $gray-lighter-7; // Default grey background color
+
+// Disabled
+$disabled: $gray-lighter-4;
+$disabled-bg: $background-base;
+$disabled-dark: $gray-lighter-6;
+
+// Shadow
+$shadow: rgba(171, 178, 183, 0.12);
+$shadow-highlight: rgba(171, 178, 183, 1);
+$box-shadow-base: 0 2px 6px rgba(171, 178, 183, 0.12);
+$box-shadow-active: 0 8px 16px rgba(171, 178, 183, 0.32);
+
+$shadow-1-up: 0 0px 8px $shadow;
+$shadow-1-down: 0 2px 8px $shadow;
+$shadow-1-left: -2px 0 8px $shadow;
+$shadow-1-right: 2px 0 8px $shadow;
+$shadow-2: $box-shadow-base;
+$shadow-highlight: 0 0px 8px $shadow-highlight;
+
+

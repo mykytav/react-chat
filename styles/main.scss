@@ -1,0 +1,16 @@
+@import url("https://fonts.googleapis.com/css?family=Roboto");
+
+* {
+  -webkit-font-smoothing: antialiased;
+  -moz-osx-font-smoothing: grayscale;
+  outline: none !important;
+  &::placeholder {
+    font-size: inherit !important;
+    font-weight: inherit !important;
+  }
+}
+
+body {
+  font-family: "Roboto", sans-serif;
+  font-weight: 500;
+}
